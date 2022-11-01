@@ -19,13 +19,11 @@ specifiers:
   vsce: ^2.13.0
   vscode-dts: ^0.3.3
 
-dependencies:
-  '@types/vscode': 1.72.0
-
 devDependencies:
   '@types/glob': 8.0.0
   '@types/mocha': 10.0.0
   '@types/node': 18.11.8
+  '@types/vscode': 1.72.0
   '@typescript-eslint/eslint-plugin': 5.42.0_6xw5wg2354iw4zujk2f3vyfrzu
   '@typescript-eslint/parser': 5.42.0_wyqvi574yv7oiwfeinomdzmc3m
   '@vscode/test-electron': 2.2.0
@@ -152,7 +150,7 @@ packages:
 
   /@types/vscode/1.72.0:
     resolution: {integrity: sha512-WvHluhUo+lQvE3I4wUagRpnkHuysB4qSyOQUyIAS9n9PYMJjepzTUD8Jyks0YeXoPD0UGctjqp2u84/b3v6Ydw==}
-    dev: false
+    dev: true
 
   /@typescript-eslint/eslint-plugin/5.42.0_6xw5wg2354iw4zujk2f3vyfrzu:
     resolution: {integrity: sha512-5TJh2AgL6+wpL8H/GTSjNb4WrjKoR2rqvFxR/DDTqYNk6uXn8BJMEcncLSpMbf/XV1aS0jAjYwn98uvVCiAywQ==}
